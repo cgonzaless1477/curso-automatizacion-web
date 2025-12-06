@@ -24,7 +24,7 @@ public class PrimerTest {
 
             System.out.println("Título de la página: " + driver.getTitle());
 
-            // Aquí tomamos la captura de evidencia
+            // Aquí tomamos la captura de evidencia aaa
             takeScreenshot(driver, "google-home");
         } finally {
             driver.quit();
